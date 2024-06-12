@@ -1,2 +1,2 @@
 #!/bin/bash
-cd "$OLDPWD" || { echo "Failed to change directory."; exit 1; }
+cd -
