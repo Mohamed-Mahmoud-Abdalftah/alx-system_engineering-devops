@@ -1,3 +1,2 @@
 #!/bin/bash
-
-ls -al | awk 'BEGIN {total=0} NR > 1 {print} {total += $5} END {print "total", total}'
+ls -l
