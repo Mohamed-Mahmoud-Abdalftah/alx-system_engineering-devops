@@ -1,2 +1,10 @@
-0   string  SCHOOL  School data
-!:mime School
+#!/bin/bash
+
+# Create the magic file
+echo "0 string SCHOOL School data" > school.magic
+
+# Compile the magic file into binary format
+file -C -m school.magic
+
+# Clean up temporary magic file
+rm school.magic
