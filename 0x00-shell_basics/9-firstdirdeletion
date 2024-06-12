@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Check if the directory exists
+if [ -d /tmp/my_first_directory ]; then
+  # Delete the directory
+  rm -rf /tmp/my_first_directory
+  echo "Directory /tmp/my_first_directory deleted."
+else
+  echo "Directory /tmp/my_first_directory does not exist."
+fi
